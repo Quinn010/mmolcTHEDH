@@ -75,7 +75,7 @@ export const Formats: FormatList = [
 ]
 },
 {
-	name: "[Gen 8] Practice Tool",
+	name: "[Gen 8] Custom Gam",
 	mod: 'gen8',
 	searchShow: false,
 	debug: true,
