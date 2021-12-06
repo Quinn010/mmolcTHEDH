@@ -40,8 +40,8 @@ export const Formats: FormatList = [
 		banlist: [
 		'NU','OU','Porygon + Download', 'Trapinch + Arena Trap', 'Diglett + Arena Trap'
 		]
-},
-{
+	},
+	{
 	name: "[Gen 8] Custom Game",
 
 	mod: 'gen8',
@@ -50,5 +50,5 @@ export const Formats: FormatList = [
 	battle: {trunc: Math.trunc},
 	// no restrictions, for serious (other than team preview)
 	ruleset: ['Team Preview', 'Cancel Mod', 'Max Team Size = 24', 'Max Move Count = 24', 'Max Level = 9999', 'Default Level = 100'],
-},
-];
+	},
+	];
