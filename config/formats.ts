@@ -75,14 +75,13 @@ export const Formats: FormatList = [
 ]
 },
 {
-	name: "[Gen 7] Teambuilder ",
-
-	mod: 'gen7',
-	maxLevel: 5,
-	ruleset: ['Standard NatDex', 'OHKO Clause', 'Evasion Moves Clause', 'Species Clause', 'Dynamax Clause', 'Sleep Clause Mod', 'Switch Priority Clause Mod','Little Cup'],
-	banlist: [
-	'NU','OU','Porygon + Download', 'Trapinch + Arena Trap', 'Diglett + Arena Trap'
-]
+	name: "[Gen 8] Practice Tool",
+	mod: 'gen8',
+	searchShow: false,
+	debug: true,
+	battle: {trunc: Math.trunc},
+	// no restrictions, for serious (other than team preview)
+	ruleset: ['Team Preview', 'Cancel Mod', 'Max Team Size = 6', 'Max Move Count = 6', 'Max Level = 50', 'Default Level = 50','Switch Priority Clause Mod', 'Dynamax Clause','Species Clause', 'Sleep Clause Mod', 'Species Clause']
 },
 	// Sw/Sh Doubles
 	///////////////////////////////////////////////////////////////////
