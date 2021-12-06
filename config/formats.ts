@@ -83,19 +83,4 @@ export const Formats: FormatList = [
 	// no restrictions, for serious (other than team preview)
 	ruleset: ['Team Preview', 'Cancel Mod','Max Level = 50', 'Default Level = 50','Switch Priority Clause Mod','Dynamax Clause','Sleep Clause Mod','Species Clause']
 },
-	// Sw/Sh Doubles
-	///////////////////////////////////////////////////////////////////
-
-	{
-		section: "LC Doubles",
-	
-	},
-	{
-		name: "[Gen 8] DOUBLES LC",
-
-		mod: 'gen8',
-		gameType: 'doubles',
-		ruleset: ['Standard Doubles', 'Little Cup', 'Dynamax Clause', 'Swagger Clause', 'Sleep Clause Mod', 'Standard NatDex'],
-		banlist: ['Corsola-Galar', 'Cutiefly', 'Scyther', 'Sneasel', 'Swirlix', 'Tangela', 'Vulpix', 'Vulpix-Alola','NU'],
-	},
 ];
