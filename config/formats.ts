@@ -48,6 +48,6 @@ export const Formats: FormatList = [
 	debug: true,
 	battle: {trunc: Math.trunc},
 	// no restrictions, for serious (other than team preview)
-	ruleset: ['Team Preview', 'Cancel Mod','Max Level = 50', 'Default Level = 50','Switch Priority Clause Mod','Dynamax Clause','Sleep Clause Mod','Species Clause']
+	ruleset: ['Team Preview', 'Cancel Mod','Default Level = 50','Switch Priority Clause Mod','Dynamax Clause','Sleep Clause Mod','Species Clause']
 },
 ];
