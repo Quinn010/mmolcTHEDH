@@ -46,16 +46,6 @@ export const Formats: FormatList = [
 		ruleset: ['Obtainable', 'Species Clause', 'HP Percentage Mod', 'Cancel Mod', 'Sleep Clause Mod'],
 	},
 	{
-		name: "[Gen 8] Free-For-All Random Battle",
-
-		mod: 'gen8',
-		team: 'random',
-		gameType: 'freeforall',
-		tournamentShow: false,
-		rated: false,
-		ruleset: ['Obtainable', 'Species Clause', 'HP Percentage Mod', 'Cancel Mod', 'Sleep Clause Mod'],
-	},
-	{
 		name: "[Gen 8] Multi Random Battle",
 
 		mod: 'gen8',
@@ -382,25 +372,4 @@ export const Formats: FormatList = [
 	ruleset: ['Flat Rules', 'Galar Expansion Pokedex', '! Species Clause', '! Item Clause', '!! Adjust Level = 50', 'Min Source Gen = 8'],
 	banlist: ['Sub-Legendary'],
 },
-{
-	name: "[Gen 8] 2v2 Doubles",
-	desc: `Double battle where you bring four Pok&eacute;mon to Team Preview and choose only two.`,
-	threads: [
-		`&bullet; <a href="https://www.smogon.com/forums/threads/3656321/">2v2 Doubles</a>`,
-	],
-
-	mod: 'gen8',
-	gameType: 'doubles',
-	ruleset: [
-		'Picked Team Size = 2', 'Max Team Size = 4',
-		'Standard Doubles', 'Accuracy Moves Clause', 'Dynamax Clause', 'Sleep Clause Mod',
-	],
-	banlist: [
-		'Calyrex-Ice', 'Calyrex-Shadow', 'Dialga', 'Eternatus', 'Giratina', 'Giratina-Origin', 'Groudon', 'Ho-Oh', 'Jirachi', 'Kyogre',
-		'Kyurem-White', 'Lugia', 'Lunala', 'Magearna', 'Marshadow', 'Melmetal', 'Mewtwo', 'Necrozma-Dawn-Wings', 'Necrozma-Dusk-Mane', 'Palkia',
-		'Rayquaza', 'Reshiram', 'Solgaleo', 'Urshifu-Base', 'Xerneas', 'Yveltal', 'Zacian', 'Zacian-Crowned', 'Zamazenta', 'Zamazenta-Crowned',
-		'Zekrom', 'Power Construct', 'Focus Sash', 'Ally Switch', 'Final Gambit', 'Perish Song', 'Swagger',
-	],
-
-		}
-]
+];
