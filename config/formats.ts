@@ -283,4 +283,176 @@ export const Formats: FormatList = [
 		// no restrictions, for serious (other than team preview)
 		ruleset: ['Team Preview', 'Cancel Mod', 'Max Team Size = 24', 'Max Move Count = 24', 'Max Level = 9999', 'Default Level = 100'],
 	},
+
+// Sw/Sh Doubles
+///////////////////////////////////////////////////////////////////
+
+{
+	section: "Sw/Sh Doubles",
+},
+{
+	name: "[Gen 8] Random Doubles Battle",
+
+	mod: 'gen8',
+	gameType: 'doubles',
+	team: 'random',
+	ruleset: ['PotD', 'Obtainable', 'Species Clause', 'HP Percentage Mod', 'Cancel Mod'],
+},
+{
+	name: "[Gen 8] Doubles OU",
+	threads: [
+		`&bullet; <a href="https://www.smogon.com/forums/threads/3684554/">Doubles OU Metagame Discussion</a>`,
+		`&bullet; <a href="https://www.smogon.com/forums/threads/3658826/">Doubles OU Sample Teams</a>`,
+		`&bullet; <a href="https://www.smogon.com/forums/threads/3673519/">Doubles OU Viability Rankings</a>`,
+	],
+
+	mod: 'gen8',
+	gameType: 'doubles',
+	ruleset: ['Standard Doubles', 'Dynamax Clause', 'Swagger Clause'],
+	banlist: ['DUber', 'Power Construct', 'Shadow Tag'],
+},
+{
+	name: "[Gen 8] Doubles Ubers",
+	threads: [
+		`&bullet; <a href="https://www.smogon.com/forums/threads/3661142/">Doubles Ubers</a>`,
+	],
+
+	mod: 'gen8',
+	gameType: 'doubles',
+	ruleset: ['Standard Doubles', '!Gravity Sleep Clause'],
+	banlist: [],
+},
+{
+	name: "[Gen 8] Doubles UU",
+	threads: [
+		`&bullet; <a href="https://www.smogon.com/forums/threads/3658504/">Doubles UU</a>`,
+	],
+
+	mod: 'gen8',
+	gameType: 'doubles',
+	ruleset: ['[Gen 8] Doubles OU'],
+	banlist: ['DOU', 'DBL'],
+},
+{
+	name: "[Gen 8] Doubles LC",
+	threads: [
+		`&bullet; <a href="https://www.smogon.com/forums/threads/3658672/">Doubles LC</a>`,
+	],
+
+	mod: 'gen8',
+	gameType: 'doubles',
+	searchShow: false,
+	ruleset: ['Standard Doubles', 'Little Cup', 'Dynamax Clause', 'Swagger Clause', 'Sleep Clause Mod'],
+	banlist: ['Corsola-Galar', 'Cutiefly', 'Scyther', 'Sneasel', 'Swirlix', 'Tangela', 'Vulpix', 'Vulpix-Alola'],
+},
+{
+	name: "[Gen 8] VGC 2021 Series 10",
+	threads: [
+		`&bullet; <a href="https://www.smogon.com/forums/threads/3677186/">VGC 2021 Series 10 Metagame Discussion</a>`,
+		`&bullet; <a href="https://www.smogon.com/forums/threads/3689153/">VGC 2021 Series 10 Sample Teams</a>`,
+		`&bullet; <a href="https://www.smogon.com/forums/threads/3688166/">VGC 2021 Series 10 Viability Rankings</a>`,
+	],
+
+	mod: 'gen8',
+	gameType: 'doubles',
+	ruleset: ['Flat Rules', '!! Adjust Level = 50', 'Min Source Gen = 8', 'VGC Timer', 'Limit One Restricted', 'Dynamax Clause'],
+	restricted: ['Restricted Legendary'],
+},
+{
+	name: "[Gen 8] VGC 2021 Series 9",
+
+	mod: 'gen8',
+	gameType: 'doubles',
+	searchShow: false,
+	ruleset: ['Flat Rules', '!! Adjust Level = 50', 'Min Source Gen = 8', 'VGC Timer'],
+},
+{
+	name: "[Gen 8] VGC 2020",
+
+	mod: 'gen8dlc1',
+	gameType: 'doubles',
+	searchShow: false,
+	ruleset: ['Flat Rules', '!! Adjust Level = 50', 'Min Source Gen = 8', 'VGC Timer'],
+},
+{
+	name: "[Gen 8] Same Double Beat",
+
+	mod: 'gen8',
+	gameType: 'doubles',
+	ruleset: ['Flat Rules', 'Galar Expansion Pokedex', '! Species Clause', '! Item Clause', '!! Adjust Level = 50', 'Min Source Gen = 8'],
+	banlist: ['Sub-Legendary'],
+},
+{
+	name: "[Gen 8] 2v2 Doubles",
+	desc: `Double battle where you bring four Pok&eacute;mon to Team Preview and choose only two.`,
+	threads: [
+		`&bullet; <a href="https://www.smogon.com/forums/threads/3656321/">2v2 Doubles</a>`,
+	],
+
+	mod: 'gen8',
+	gameType: 'doubles',
+	ruleset: [
+		'Picked Team Size = 2', 'Max Team Size = 4',
+		'Standard Doubles', 'Accuracy Moves Clause', 'Dynamax Clause', 'Sleep Clause Mod',
+	],
+	banlist: [
+		'Calyrex-Ice', 'Calyrex-Shadow', 'Dialga', 'Eternatus', 'Giratina', 'Giratina-Origin', 'Groudon', 'Ho-Oh', 'Jirachi', 'Kyogre',
+		'Kyurem-White', 'Lugia', 'Lunala', 'Magearna', 'Marshadow', 'Melmetal', 'Mewtwo', 'Necrozma-Dawn-Wings', 'Necrozma-Dusk-Mane', 'Palkia',
+		'Rayquaza', 'Reshiram', 'Solgaleo', 'Urshifu-Base', 'Xerneas', 'Yveltal', 'Zacian', 'Zacian-Crowned', 'Zamazenta', 'Zamazenta-Crowned',
+		'Zekrom', 'Power Construct', 'Focus Sash', 'Ally Switch', 'Final Gambit', 'Perish Song', 'Swagger',
+	],
+},
+{
+	name: '[Gen 8] Metronome Battle',
+	threads: [
+		`&bullet; <a href="https://www.smogon.com/forums/threads/3632075/">Metronome Battle</a>`,
+	],
+
+	mod: 'gen8',
+	gameType: 'doubles',
+	ruleset: [
+		'Max Team Size = 2',
+		'HP Percentage Mod', 'Cancel Mod',
+	],
+	banlist: [
+		'Pokestar Spirit', 'Shedinja + Sturdy', 'Battle Bond', 'Cheek Pouch', 'Cursed Body', 'Dry Skin', 'Fluffy', 'Fur Coat', 'Gorilla Tactics',
+		'Grassy Surge', 'Huge Power', 'Ice Body', 'Iron Barbs', 'Libero', 'Moody', 'Neutralizing Gas', 'Parental Bond', 'Perish Body', 'Poison Heal',
+		'Power Construct', 'Pressure', 'Protean', 'Pure Power', 'Rain Dish', 'Rough Skin', 'Sand Spit', 'Sand Stream', 'Snow Warning', 'Stamina',
+		'Volt Absorb', 'Water Absorb', 'Wonder Guard', 'Abomasite', 'Aguav Berry', 'Assault Vest', 'Berry', 'Berry Juice', 'Berserk Gene',
+		'Black Sludge', 'Enigma Berry', 'Figy Berry', 'Gold Berry', 'Iapapa Berry', 'Kangaskhanite', 'Leftovers', 'Mago Berry', 'Medichamite',
+		'Steel Memory', 'Oran Berry', 'Rocky Helmet', 'Shell Bell', 'Sitrus Berry', 'Wiki Berry', 'Harvest + Jaboca Berry', 'Harvest + Rowap Berry',
+	],
+	onValidateSet(set) {
+		const species = this.dex.species.get(set.species);
+		if (species.types.includes('Steel')) {
+			return [`${species.name} is a Steel-type, which is banned from Metronome Battle.`];
+		}
+		if (species.bst > 625) {
+			return [`${species.name} is banned.`, `(Pok\u00e9mon with a BST higher than 625 are banned)`];
+		}
+		const item = this.dex.items.get(set.item);
+		if (set.item && item.megaStone) {
+			const megaSpecies = this.dex.species.get(item.megaStone);
+			if (species.baseSpecies === item.megaEvolves && megaSpecies.bst > 625) {
+				return [
+					`${set.name || set.species}'s item ${item.name} is banned.`, `(Pok\u00e9mon with a BST higher than 625 are banned)`,
+				];
+			}
+		}
+		if (set.moves.length !== 1 || this.dex.moves.get(set.moves[0]).id !== 'metronome') {
+			return [`${set.name || set.species} has illegal moves.`, `(Pok\u00e9mon can only have one Metronome in their moveset)`];
+		}
+	},
+},
+{
+	name: "[Gen 8] Doubles Custom Game",
+
+	mod: 'gen8',
+	gameType: 'doubles',
+	searchShow: false,
+	battle: {trunc: Math.trunc},
+	debug: true,
+	// no restrictions, for serious (other than team preview)
+	ruleset: ['Team Preview', 'Cancel Mod', 'Max Team Size = 24', 'Max Move Count = 24', 'Max Level = 9999', 'Default Level = 100'],
+},
 ]
